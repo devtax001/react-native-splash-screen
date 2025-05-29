@@ -10,7 +10,7 @@
 #import <RNSplashScreenSpec/RNSplashScreenSpec.h>
 @interface RNSplashScreen : NSObject <NativeSplashScreenSpec>
 #else
-#import <React/RCTBridgeModule.h>
+#import <React/RCTBridge.h>
 
 @interface RNSplashScreen : NSObject <RCTBridgeModule>
 #endif
